@@ -17,3 +17,6 @@ we can also access our multipass or dry run a code on the host machine, this is 
 - On your host shell, type < any_name _command_ >, this is what you want to execute on the multipass. So it will execute on the virtual machine managed by the multipass.
 
  With docker in multipass we can run any kind of code without fear because even if it had to face a crash, it will only affect the virtual machine managed by the multipass and the host machine itself. 
+  
+you may better understand how the process work with the following diagram
+![myimage](doc.drawio)(https://drive.google.com/file/d/1C_Z3mA3-9kYLqGYoBO2D72TnDMMAykki/view?usp=drive_link)
