@@ -8,7 +8,7 @@ We use the following command to lauch the multipass:
 - We can use the command < multipass --help > to know all the command available on multipass
 - To enter the shell ( we some how created a new shell in our multipass so that if our code had to crash then it will neither affect out host machine or host shell). Type to enter the shell < multipass shell instance_name >. So with this command your new default shell in the multipass, will be instance-name which is just a name given to an instance, the instance here in our case is docker. The __docker__ is an ubuntu instance with docker pre-install in the ubuntu.
 
-we can also access our multipass or dry run a code on the host machine, this is done as follow:
+we can also access our multipass or run a code on the host machine, this is done as follow:
 - Go to the host shell 
 - enter inside the host scriting shell, use the command < nano .zshrc > if of cost you are using the zshell default shell or the command < nano .bashrc > if otherwise.  
 - Type < allias any_name= multipass exec instance_name --docker > in you scripting shell
@@ -19,4 +19,4 @@ we can also access our multipass or dry run a code on the host machine, this is 
  With docker in multipass we can run any kind of code without fear because even if it had to face a crash, it will only affect the virtual machine managed by the multipass and the host machine itself. 
   
 you may better understand how the process work with the following diagram
-![myimage](doc.drawio)(https://drive.google.com/file/d/1C_Z3mA3-9kYLqGYoBO2D72TnDMMAykki/view?usp=drive_link)
+![myimage](doc.drawio)https://app.diagrams.net/#G1C_Z3mA3-9kYLqGYoBO2D72TnDMMAykki#%7B%22pageId%22%3A%22vN5Kuzst5b3ZgsCIS6pS%22%7D
